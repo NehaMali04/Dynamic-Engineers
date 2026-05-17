@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic Engineers - Water Treatment & Chemical Cleaning | Nashik</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav>
+  <div class="nav-logo">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="50,5 95,90 5,90" fill="none" stroke="#c0392b" stroke-width="6"/>
+      <rect x="38" y="18" width="24" height="30" rx="4" fill="#c0392b"/>
+      <rect x="44" y="10" width="12" height="10" rx="2" fill="#333"/>
+      <ellipse cx="50" cy="72" rx="18" ry="10" fill="#c0392b" opacity="0.8"/>
+    </svg>
+    <div class="nav-logo-text">
+      <h2>DYNAMIC ENGINEERS</h2>
+      <p>Water Treatment • Chemical Cleaning</p>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#hero" class="active">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#" onclick="openModal();return false;" class="btn-quote">Book Now</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ===== HERO ===== -->
+<div id="hero" class="hero">
+  <!-- Slideshow background -->
+  <div class="hero-slides">
+    <div class="hero-slide active" style="background-image: url('img/img1.jpg')"></div>
+    <div class="hero-slide" style="background-image: url('img/img2.jpg')"></div>
+    <div class="hero-slide" style="background-image: url('img/img3.jpg')"></div>
+  </div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <p class="welcome">WELCOME TO</p>
+    <h1>DYNAMIC<br/><span>ENGINEERS</span></h1>
+    <p>Expert in Water Treatment &amp; Chemical Cleaning<br/>Solutions for Industrial Excellence</p>
+    <div class="hero-btns">
+      <a href="#services" class="btn-primary">⚙ Our Services</a>
+      <a href="#" onclick="openModal();return false;" class="btn-outline">✉ Contact Us</a>
+    </div>
+  </div>
+  <div class="hero-contact-card">
+    <div class="hcc-top">
+      <div class="hcc-pulse"></div>
+      <span class="hcc-live">AVAILABLE NOW</span>
+    </div>
+    <div class="hcc-divider"></div>
+    <div class="hcc-label">📞 Call Us Today</div>
+    <a href="tel:7709052619" class="hcc-phone">7709052619</a>
+    <span class="hcc-name">Amol Bhadane</span>
+    <div class="hcc-divider"></div>
+    <a href="mailto:Dynamicengineering4522@gmail.com" class="hcc-email">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Dynamicengineering4522@gmail.com
+    </a>
+    <a href="#" onclick="openModal();return false;" class="hcc-btn">
+      Get Free Quote
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+  </div>
+</div>
+
+
+
+<!-- ===== SERVICES ===== -->
+<section id="services">
+  <div class="section-label">OUR SERVICES</div>
+  <h2 class="section-title">SPECIALIST IN</h2>
+  <div class="services-grid">
+
+    <div class="service-card">
+      <div class="service-icon">🔥</div>
+      <div>
+        <h3>Boiler & Equipment Descaling</h3>
+        <p>Chemical descaling of all types of Boilers, compressors, chillers, Heat Exchanger, Intercoolers &amp; dynamometers.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🏭</div>
+      <div>
+        <h3>Descaling of Compressor &amp; Furnace</h3>
+        <p>Professional descaling of compressors and furnaces to restore peak operational efficiency.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🎨</div>
+      <div>
+        <h3>Powder Coating Stripping</h3>
+        <p>Complete powder coating stripping works using advanced chemical processes.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🔩</div>
+      <div>
+        <h3>Pickling &amp; Passivation</h3>
+        <p>Pickling &amp; passivation of pre-commission piping vessels and equipments for long-term protection.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">💧</div>
+      <div>
+        <h3>Descaling Degreasing &amp; Oil Removing</h3>
+        <p>Descaling, degreasing, oil removing for boilers, Heat exchanger, Coolers &amp; All types of cooling circuit.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">✅</div>
+      <div>
+        <h3>Complete Industrial Cleaning</h3>
+        <p>Complete Industrial Cleaning Solutions with Safety &amp; Quality Assured for all industrial needs.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="about-inner">
+    <div class="about-img">
+      <img src="img/img2.jpg" alt="Industrial Plant"/>
+      <div class="exp-badge">
+        <div class="num">10+</div>
+        <div class="label">Years of Experience</div>
+      </div>
+    </div>
+    <div class="about-content">
+      <div class="section-label">ABOUT US</div>
+      <h2>Delivering Clean, Safe &amp;<br/>Efficient Industrial Solutions</h2>
+      <p>Dynamic Engineers is a trusted name in the field of Water Treatment and Chemical Cleaning. We are committed to providing highly efficient, safe and eco-friendly solutions to our valued clients.</p>
+      <ul class="about-features">
+        <li>Experienced &amp; Skilled Team</li>
+        <li>Advanced Cleaning Techniques</li>
+        <li>On-Time Project Delivery</li>
+        <li>Customer Satisfaction Guaranteed</li>
+      </ul>
+      <a href="#" onclick="openModal();return false;" class="btn-secondary">Learn More About Us →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section id="services">
+  <div class="section-label">OUR SERVICES</div>
+  <h2 class="section-title">SPECIALIST IN</h2>
+  <div class="services-grid">
+
+    <div class="service-card">
+      <div class="service-icon">🔥</div>
+      <div>
+        <h3>Boiler & Equipment Descaling</h3>
+        <p>Chemical descaling of all types of Boilers, compressors, chillers, Heat Exchanger, Intercoolers &amp; dynamometers.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🏭</div>
+      <div>
+        <h3>Descaling of Compressor &amp; Furnace</h3>
+        <p>Professional descaling of compressors and furnaces to restore peak operational efficiency.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🎨</div>
+      <div>
+        <h3>Powder Coating Stripping</h3>
+        <p>Complete powder coating stripping works using advanced chemical processes.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🔩</div>
+      <div>
+        <h3>Pickling &amp; Passivation</h3>
+        <p>Pickling &amp; passivation of pre-commission piping vessels and equipments for long-term protection.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">💧</div>
+      <div>
+        <h3>Descaling Degreasing &amp; Oil Removing</h3>
+        <p>Descaling, degreasing, oil removing for boilers, Heat exchanger, Coolers &amp; All types of cooling circuit.</p>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">✅</div>
+      <div>
+        <h3>Complete Industrial Cleaning</h3>
+        <p>Complete Industrial Cleaning Solutions with Safety &amp; Quality Assured for all industrial needs.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== PROJECTS GALLERY ===== -->
+<section id="projects" style="background:#f8f9fc;">
+  <div class="section-label">OUR WORK</div>
+  <h2 class="section-title">PROJECTS GALLERY</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="img/img1.jpg" alt="Industrial Project 1"/>
+      <div class="gallery-overlay">
+        <span>Water Treatment Plant</span>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="img/img2.jpg" alt="Industrial Project 2"/>
+      <div class="gallery-overlay">
+        <span>Chemical Cleaning Works</span>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="img/img3.jpg" alt="Industrial Project 3"/>
+      <div class="gallery-overlay">
+        <span>Boiler Descaling</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHATSAPP MODAL ===== -->
+<div id="wa-modal" class="modal-backdrop" onclick="closeModal(event)">
+  <div class="modal-box">
+
+    <!-- Header bar -->
+    <div class="modal-header">
+      <div class="modal-header-icon">
+        <svg width="28" height="28" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="50,5 95,90 5,90" fill="none" stroke="white" stroke-width="7"/>
+          <rect x="38" y="18" width="24" height="28" rx="4" fill="white"/>
+          <rect x="44" y="10" width="12" height="10" rx="2" fill="rgba(255,255,255,0.6)"/>
+          <ellipse cx="50" cy="72" rx="16" ry="9" fill="white" opacity="0.85"/>
+        </svg>
+      </div>
+      <div>
+        <div class="modal-header-title">Dynamic Engineers</div>
+        <div class="modal-header-sub">Water Treatment &amp; Chemical Cleaning</div>
+      </div>
+      <button class="modal-close" onclick="document.getElementById('wa-modal').classList.remove('open');document.body.style.overflow='';">✕</button>
+    </div>
+
+    <!-- Body -->
+    <div class="modal-body">
+      <h2 class="modal-title">Start the Conversation</h2>
+      <p class="form-sub">We'll get back to you within 24 hours.</p>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Your Name</label>
+          <div class="input-wrap">
+            <span class="input-icon">👤</span>
+            <input type="text" id="f-name" placeholder="John Smith" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Phone</label>
+          <div class="input-wrap">
+            <span class="input-icon">📞</span>
+            <input type="tel" id="f-phone" placeholder="+91 98765 43210" />
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Work Email</label>
+        <div class="input-wrap">
+          <span class="input-icon">✉️</span>
+          <input type="email" id="f-email" placeholder="you@company.com" />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>How can we help?</label>
+        <div class="input-wrap textarea-wrap">
+          <span class="input-icon" style="top:14px;">🔧</span>
+          <textarea id="f-msg" rows="4" placeholder="Tell us about your project, goals, or questions..."></textarea>
+        </div>
+      </div>
+
+      <div class="form-secure">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25d366" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Your information is secure and never shared
+      </div>
+      <div class="modal-email-bar">
+        ✉️ <a href="mailto:Dynamicengineering4522@gmail.com">Dynamicengineering4522@gmail.com</a>
+      </div>
+
+      <button class="btn-whatsapp" onclick="sendWhatsApp()">
+        <svg width="22" height="22" viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 2C8.268 2 2 8.268 2 16c0 2.478.675 4.797 1.848 6.787L2 30l7.43-1.82A13.94 13.94 0 0016 30c7.732 0 14-6.268 14-14S23.732 2 16 2zm0 25.5a11.44 11.44 0 01-5.8-1.573l-.416-.247-4.41 1.082 1.115-4.3-.272-.44A11.46 11.46 0 014.5 16C4.5 9.649 9.649 4.5 16 4.5S27.5 9.649 27.5 16 22.351 27.5 16 27.5zm6.29-8.61c-.345-.172-2.04-1.006-2.356-1.12-.316-.115-.546-.172-.776.172-.23.345-.89 1.12-1.09 1.35-.2.23-.4.258-.745.086-.345-.172-1.456-.537-2.773-1.71-1.025-.913-1.717-2.04-1.918-2.385-.2-.345-.021-.531.15-.703.155-.155.345-.4.517-.6.172-.2.23-.345.345-.575.115-.23.057-.43-.029-.603-.086-.172-.776-1.87-1.063-2.56-.28-.672-.564-.58-.776-.59l-.66-.011c-.23 0-.603.086-.918.43-.316.345-1.205 1.178-1.205 2.872s1.234 3.33 1.406 3.56c.172.23 2.428 3.71 5.882 5.203.822.355 1.463.567 1.963.726.824.263 1.574.226 2.167.137.66-.099 2.04-.834 2.328-1.638.287-.804.287-1.493.2-1.638-.086-.144-.316-.23-.66-.4z"/>
+        </svg>
+        Send via WhatsApp
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===== CONTACT FORM PLACEHOLDER ===== -->
+
+<!-- ===== STATS ===== -->
+<div id="stats" class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="icon">🏆</div>
+      <div class="num" data-val="10" data-suffix="+">0+</div>
+      <div class="label">Years of Experience</div>
+    </div>
+    <div class="stat-item">
+      <div class="icon">😊</div>
+      <div class="num" data-val="100" data-suffix="+">0+</div>
+      <div class="label">Happy Clients</div>
+    </div>
+    <div class="stat-item">
+      <div class="icon">📋</div>
+      <div class="num" data-val="500" data-suffix="+">0+</div>
+      <div class="label">Projects Completed</div>
+    </div>
+    <div class="stat-item">
+      <div class="icon">🛡</div>
+      <div class="num" data-val="100" data-suffix="%">0%</div>
+      <div class="label">Safety &amp; Quality</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact" class="contact-section">
+  <div class="contact-inner">
+    <h2 class="contact-heading">Let's Talk</h2>
+    <p class="contact-sub">Reach out to us through any of the channels below</p>
+
+    <div class="contact-cards-row">
+
+      <!-- Address -->
+      <a href="https://www.google.com/maps/search/Dynamic+Engineers+Madhavkrupa+Row+House+Gangurde+Nagar+Pathardi+Phata+Nashik" target="_blank" class="contact-card-item" style="grid-column: 1 / -1;">
+        <div class="cci-icon addr-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+        </div>
+        <div class="cci-text">
+          <span class="cci-label">Visit Us</span>
+          <span class="cci-value">Dynamic Engineers, Madhavkrupa Row House, Row House No.09, Gangurde Nagar, Pathardi-Devlali Road, Pathardi Phata, Nashik</span>
+        </div>
+      </a>
+
+      <!-- Email -->
+      <a href="mailto:Dynamicengineering4522@gmail.com" class="contact-card-item">
+        <div class="cci-icon email-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </div>
+        <div class="cci-text">
+          <span class="cci-label">Email Us</span>
+          <span class="cci-value">Dynamicengineering4522@gmail.com</span>
+        </div>
+      </a>
+
+      <!-- WhatsApp -->
+      <div class="contact-card-item">
+        <div class="cci-icon wa-icon">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 2C8.268 2 2 8.268 2 16c0 2.478.675 4.797 1.848 6.787L2 30l7.43-1.82A13.94 13.94 0 0016 30c7.732 0 14-6.268 14-14S23.732 2 16 2zm0 25.5a11.44 11.44 0 01-5.8-1.573l-.416-.247-4.41 1.082 1.115-4.3-.272-.44A11.46 11.46 0 014.5 16C4.5 9.649 9.649 4.5 16 4.5S27.5 9.649 27.5 16 22.351 27.5 16 27.5zm6.29-8.61c-.345-.172-2.04-1.006-2.356-1.12-.316-.115-.546-.172-.776.172-.23.345-.89 1.12-1.09 1.35-.2.23-.4.258-.745.086-.345-.172-1.456-.537-2.773-1.71-1.025-.913-1.717-2.04-1.918-2.385-.2-.345-.021-.531.15-.703.155-.155.345-.4.517-.6.172-.2.23-.345.345-.575.115-.23.057-.43-.029-.603-.086-.172-.776-1.87-1.063-2.56-.28-.672-.564-.58-.776-.59l-.66-.011c-.23 0-.603.086-.918.43-.316.345-1.205 1.178-1.205 2.872s1.234 3.33 1.406 3.56c.172.23 2.428 3.71 5.882 5.203.822.355 1.463.567 1.963.726.824.263 1.574.226 2.167.137.66-.099 2.04-.834 2.328-1.638.287-.804.287-1.493.2-1.638-.086-.144-.316-.23-.66-.4z"/>
+          </svg>
+        </div>
+        <div class="cci-text">
+          <span class="cci-label">WhatsApp</span>
+          <a href="https://wa.me/917709052619" target="_blank" class="cci-value cci-link">7709052619</a>
+          <a href="https://wa.me/917030372619" target="_blank" class="cci-value cci-link">7030372619</a>
+        </div>
+      </div>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/dynamic_engineers" target="_blank" class="contact-card-item">
+        <div class="cci-icon insta-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </div>
+        <div class="cci-text">
+          <span class="cci-label">Instagram</span>
+          <span class="cci-value">@dynamic_engineers</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="footer-bottom">
+    © 2024 Dynamic Engineers, Nashik. All Rights Reserved.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
